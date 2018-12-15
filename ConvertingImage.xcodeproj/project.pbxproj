@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D14FF421C54C530057BE43 /* SentenceMorphologicalAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D14FF321C54C530057BE43 /* SentenceMorphologicalAnalysis.swift */; };
+		24D14FF621C551CA0057BE43 /* SentenceMorphologicalAnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D14FF521C551CA0057BE43 /* SentenceMorphologicalAnalysisTests.swift */; };
 		4DA0248F43050F90DF341323 /* Pods_ConvertingImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181E092462EF4A08FF8D20D /* Pods_ConvertingImage.framework */; };
 		673985955AAB7A70D89BD027 /* Pods_ConvertingImageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143179CDD3149BEBC7BBE223 /* Pods_ConvertingImageTests.framework */; };
 		D46CA18321C4C31A009562E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CA18221C4C31A009562E0 /* AppDelegate.swift */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		143179CDD3149BEBC7BBE223 /* Pods_ConvertingImageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertingImageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D14FF321C54C530057BE43 /* SentenceMorphologicalAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceMorphologicalAnalysis.swift; sourceTree = "<group>"; };
+		24D14FF521C551CA0057BE43 /* SentenceMorphologicalAnalysisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceMorphologicalAnalysisTests.swift; sourceTree = "<group>"; };
 		7C30726C6DCFD06806425B96 /* Pods-ConvertingImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertingImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertingImage/Pods-ConvertingImage.release.xcconfig"; sourceTree = "<group>"; };
 		8181E092462EF4A08FF8D20D /* Pods_ConvertingImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConvertingImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		939F289384A0A952C36CCBC8 /* Pods-ConvertingImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvertingImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConvertingImageTests/Pods-ConvertingImageTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 			children = (
 				D46CA19721C4C31C009562E0 /* ConvertingImageTests.swift */,
 				D46CA19921C4C31C009562E0 /* Info.plist */,
+				24D14FF521C551CA0057BE43 /* SentenceMorphologicalAnalysisTests.swift */,
 			);
 			path = ConvertingImageTests;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				D46CA1AF21C4C54A009562E0 /* SentenceConvertingPresenter.swift */,
+				24D14FF321C54C530057BE43 /* SentenceMorphologicalAnalysis.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -394,6 +400,7 @@
 				D46CA1AB21C4C4DA009562E0 /* SentenceConvertingViewController.swift in Sources */,
 				D46CA1B321C4C573009562E0 /* SentenceConvertingModel.swift in Sources */,
 				D46CA18521C4C31A009562E0 /* ViewController.swift in Sources */,
+				24D14FF421C54C530057BE43 /* SentenceMorphologicalAnalysis.swift in Sources */,
 				D46CA1B021C4C54A009562E0 /* SentenceConvertingPresenter.swift in Sources */,
 				D46CA18321C4C31A009562E0 /* AppDelegate.swift in Sources */,
 				D46CA1A521C4C47A009562E0 /* SentenceConvertingCollectionViewCell.swift in Sources */,
@@ -405,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46CA19821C4C31C009562E0 /* ConvertingImageTests.swift in Sources */,
+				24D14FF621C551CA0057BE43 /* SentenceMorphologicalAnalysisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

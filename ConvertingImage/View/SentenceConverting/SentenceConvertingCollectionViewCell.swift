@@ -24,11 +24,11 @@ class SentenceConvertingCollectionViewCell: UICollectionViewCell {
                 return
         }
         
-        let image = UIImage(data:imageData)
-        self.imageView.image = image
+//        let image = UIImage(data:imageData)
+//        self.imageView.image = image
     }
     
     func setWord(_ word: String) {
-        wordLabel.text = word
+//        wordLabel.text = word
     }
 }
