@@ -10,9 +10,25 @@ import UIKit
 
 class SentenceConvertingCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var wordLabel: UITextView!
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    func setURL(urlString: String) {
+        guard let url = URL(string: urlString),
+            let imageData = try? Data(contentsOf: url) else {
+                return
+        }
+        
+        let image = UIImage(data:imageData)
+        self.imageView.image = image
+    }
+    
+    func setWord(_ word: String) {
+        wordLabel.text = word
+    }
 }

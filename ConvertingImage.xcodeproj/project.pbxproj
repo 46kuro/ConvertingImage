@@ -190,6 +190,7 @@
 				D46CA17C21C4C319009562E0 /* Frameworks */,
 				D46CA17D21C4C319009562E0 /* Resources */,
 				4CB950206E5CA5555220472A /* [CP] Embed Pods Frameworks */,
+				D87E1328E5DA577264215D3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +209,8 @@
 				D46CA18F21C4C31C009562E0 /* Sources */,
 				D46CA19021C4C31C009562E0 /* Frameworks */,
 				D46CA19121C4C31C009562E0 /* Resources */,
+				6980553687B4877E0BDD3207 /* [CP] Embed Pods Frameworks */,
+				5B258560365CFEEA7796A055 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +303,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertingImage/Pods-ConvertingImage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5B258560365CFEEA7796A055 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertingImageTests/Pods-ConvertingImageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6980553687B4877E0BDD3207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertingImageTests/Pods-ConvertingImageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7805E07CEA38DCFAC9727C44 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +367,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87E1328E5DA577264215D3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConvertingImage/Pods-ConvertingImage-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -512,7 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7D5HM735C;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
 				INFOPLIST_FILE = ConvertingImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,7 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7D5HM735C;
+				DEVELOPMENT_TEAM = 39WWX2FY3V;
 				INFOPLIST_FILE = ConvertingImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
