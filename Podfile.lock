@@ -1,0 +1,20 @@
+PODS:
+  - APIKit (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.0)
+
+DEPENDENCIES:
+  - APIKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - APIKit
+    - Result
+
+SPEC CHECKSUMS:
+  APIKit: 23ddce4be7eccd746d2ab3c62713cd80d5846d5a
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+
+PODFILE CHECKSUM: f751d1c27bdf9b093e5fb2e56eef1a605b00b519
+
+COCOAPODS: 1.5.3
