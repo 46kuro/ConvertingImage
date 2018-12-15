@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// 通信してモデルを返却する
 final class SentenceConvertingPresenter {
     
 }
