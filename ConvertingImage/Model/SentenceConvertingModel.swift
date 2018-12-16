@@ -9,5 +9,9 @@
 import Foundation
 
 struct SentenceConvertingModel: Codable {
+    let imageUrlString: String?
     
+    enum CodingKeys: String, CodingKey {
+        case imageUrlString = "image-url"
+    }
 }
